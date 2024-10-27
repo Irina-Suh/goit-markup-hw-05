@@ -562,15 +562,7 @@ margin-bottom: 16px;}
     align-items: center;
     justify-content: center;
 }
-/* .footer-label{
-   
-} */
-/* .footer-form-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-} */
+
 .footer-input{
    margin-right:24px;
    border: 1px solid #fff;
@@ -595,7 +587,7 @@ color: #ffffff;
 .btn-subscribe{
     border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         background: #4d5ae5;
         font-family: "Roboto", sans-serif;
@@ -608,10 +600,13 @@ color: #ffffff;
             display: flex;
             align-items: center;
     justify-content: center;
+    cursor: pointer;
+    border: none;
 }
-/* .footer-subscribe-icon{
+.footer-subscribe-icon{
   fill:#fff;  
-} */
+  margin-left: 16px;
+}
  .backdrop{
     position: fixed;
     top:0;
@@ -789,16 +784,17 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
-display: flex;
-align-items: center;
+/* display: flex;
+align-items: center; */
  }
  .modal-check-text .chekbox-icon{
+    display: inline-flex;
     border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 width: 16px;
 height: 16px;
 margin-right: 8px;
-display: inline-flex;
+
 align-items: center;
 justify-content: center;
 fill: transparent;
