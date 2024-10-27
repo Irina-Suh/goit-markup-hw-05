@@ -549,7 +549,6 @@ margin-bottom: 16px;}
  padding: 0;
 }
 .subscribe-text{
-font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -557,12 +556,21 @@ font-family: "Roboto", sans-serif;
     color: #fff;
     margin-bottom: 16px;
 }
-.footer-form-container{
+.footer-form{
+    display: flex;
+    gap:24px;
+    align-items: center;
+    justify-content: center;
+}
+/* .footer-label{
+   
+} */
+/* .footer-form-container{
     display: flex;
     align-items: center;
     justify-content: center;
    
-}
+} */
 .footer-input{
    margin-right:24px;
    border: 1px solid #fff;
@@ -571,7 +579,18 @@ width: 264px;
 height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
+font-size: 12px; 
+line-height: 2; 
+letter-spacing: 0.04em;
+padding-left: 16px; 
+color: #ffffff;
+
 }
+
+.footer-input::placeholder{
+    color: #ffffff;
+}
+
 
 .btn-subscribe{
     border-radius: 4px;
