@@ -546,6 +546,7 @@ margin-bottom: 16px;}
 }
 .footer-subscribe{
    margin-left: 0;
+ padding: 0;
 }
 .subscribe-text{
 font-family: "Roboto", sans-serif;
@@ -554,11 +555,13 @@ font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
-.footer-form{
+.footer-form-container{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 .footer-input{
    margin-right:24px;
@@ -577,8 +580,9 @@ font-family: "Roboto", sans-serif;
             letter-spacing: 0.04em;
             text-align: center;
             color: #fff;
-            /* align-items: center;
-    justify-content: center; */
+            display: flex;
+            align-items: center;
+    justify-content: center;
 }
 /* .footer-subscribe-icon{
   fill:#fff;  
